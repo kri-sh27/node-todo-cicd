@@ -1,3 +1,4 @@
+# Deploying a Dockerized Node.js App on AWS Using ECS and ECR
 In this blog, I’ll walk through how I deployed my Node.js application from Docker to AWS using Amazon ECS (Elastic Container Service), ECR (Elastic Container Registry), and EC2.  
 This hands-on guide is perfect for beginners trying to understand how containers move from local to cloud.
 
