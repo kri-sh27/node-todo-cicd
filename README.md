@@ -94,7 +94,9 @@ Below are the **cleaned and corrected steps** of what I performed.
     
 2. Name: `ecs-demo`
     
-3. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1765564983979/ef1d858f-f541-429f-a230-11a1cff25c82.png align="center")
+3. 
+<div align="center">
+    <img src="SS/1.png" width="80%"/></div>
     
 4. Instance Type: **t2.medium**
     
@@ -112,7 +114,8 @@ Below are the **cleaned and corrected steps** of what I performed.
         
 8. Launch the instance.
     
-9. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1765565008666/af5a717a-475d-4982-b8b1-e24df182ebe6.png align="center")
+9. <div align="center">
+    <img src="SS/2.png" width="80%"/></div>
     
 
 ---
@@ -121,7 +124,8 @@ Below are the **cleaned and corrected steps** of what I performed.
 
 Connect using **EC2 Instance Connect**.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1765565033591/e9b4bee7-8c9b-4a4a-9102-a9162343c6b7.png align="center")
+<div align="center">
+    <img src="SS/3.png" width="80%"/></div>
 
 ### **Update the system**
 
@@ -159,7 +163,8 @@ sudo snap install aws-cli --classic
 
 # 🧑‍💻 Step 3: Clone Your Node.js Project
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1765565061627/555946e6-7590-4843-95e6-4ed2b01593ae.png align="center")
+<div align="center">
+    <img src="SS/4.png" width="80%"/></div>
 
 ```bash
 git clone https://github.com/kri-sh27/node-todo-cicd.git
@@ -176,7 +181,8 @@ cd node-todo-cicd
     
 3. Create repo → Name: `node-app`
     
-4. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1765565093655/aa13f9a1-5229-47c8-803a-47b79b580869.png align="center")
+4. <div align="center">
+    <img src="SS/5.png" width="80%"/></div>
     
 5. Click **View push commands**
     
@@ -208,7 +214,8 @@ Provide:
     
 * Region (example: `ap-south-1`)
     
-* ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1765565202945/5682b015-a2ad-4034-8e5b-0dc389a71369.png align="center")
+* <div align="center">
+    <img src="SS/6.png" width="80%"/></div>
     
 
 ---
@@ -247,7 +254,8 @@ docker push public.ecr.aws/x5p1t2r7/node-app:latest
     
 2. Create cluster → EC2 or Fargate (depending on your setup)
     
-3. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1765565231983/f625f53e-cad1-44ad-8e0b-766feb16e898.png align="center")
+3. <div align="center">
+    <img src="SS/7.png" width="80%"/></div>
     
 
 ### **Create Task Definition**
@@ -282,7 +290,8 @@ Example:
 http://13.218.66.195:8000
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1765565428083/f0957078-bf92-4781-8c36-e2c18498d08f.png align="center")
+<div align="center">
+    <img src="SS/8.png" width="80%"/></div>
 
 ---
 
